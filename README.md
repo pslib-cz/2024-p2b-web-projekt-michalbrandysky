@@ -4,4 +4,4 @@
 Fiktivní webové portfolio fotografa Lukáše Nováka, který se specializuje na portrétní, svatební a přírodní fotografie. Cílem webu je představit jeho tvorbu, přilákat nové klienty a umožnit rychlý kontakt.
 
 ## Odkazy
-- [Návrh ve Figmě](https://www.figma.com/) 
+- [Návrh ve Figmě][(https://www.figma.com/) ](https://www.figma.com/proto/BzuFNyOXvT4nPIqggpdKgD/Untitled?node-id=0-1&t=Fh8cAjtYVWBh2i5b-1)
