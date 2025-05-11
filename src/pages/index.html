@@ -5,16 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/src/styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example page</title>
+    <title>Lukáš Novák-profesionální foto</title>
   </head>
-  <body>
-    <div class="app">
-      <h1>Hello Example page</h1>
-      <p><a href="./contacts/">Link to Contact page</a></p>
-      <p><a href="%BASE_URL%contacts/">Link to Contact page</a></p>
-      <p><a href="%BASE_URL%swiper/">Link to Swiper example</a></p>
-      <p><a href="%BASE_URL%gallery.html">Link to Gallery example</a></p>
-    </div>
+ <body>
+    <header class="main-header">
+      <nav>
+        <ul>
+          <li><a href="%BASE_URL%o_mne/index.html">O mně</a></li>
+          <li><a href="%BASE_URL%contacts/index.html">Kontakt</a></li>
+          <li><a href="%BASE_URL%produkty/index.html">Produkty</a></li>
+          <li><a href="%BASE_URL%swiper/index.html">Galerie</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home-hero">
+      <div class="blur-bg"></div>
+      <h1>Profesionální fotograf<br>Lukáš Novák</h1>
+    </main>
+    <footer class="main-footer">
+      <p>&copy; 2025 Lukáš Novák</p>
+    </footer>
     <script type="module" src="/src/scripts/main.js"></script>
   </body>
 </html>
