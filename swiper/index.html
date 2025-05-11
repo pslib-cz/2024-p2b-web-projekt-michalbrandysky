@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/2024-p2b-web-projekt-michalbrandysky/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie | Lukáš Novák</title>
+  <style>
+    .swiper {
+      --swiper-theme-color: #ffba08;
+      --swiper-pagination-color: #ffba08;
+      --swiper-pagination-bullet-size: 16px;
+      --swiper-pagination-bullet-inactive-color: #999999;
+      --swiper-pagination-bullet-inactive-opacity: 0.7;
+      --swiper-navigation-color: #ffba08;
+      --swiper-navigation-size: 32px;
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .picture__image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+    body {
+      background: #7a5c3e; /* středně hnědá */
+      margin: 0;
+      font-family: inherit;
+    }
+    .main-header, .main-footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 0.75em 0;
+    }
+    .main-header nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 0.5em;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .main-header nav a {
+      background: #fff;
+      color: #111;
+      border-radius: 1.5em;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1em;
+      transition: background 0.2s;
+    }
+    .main-header nav a:hover {
+      background: #ffba08;
+      color: #111;
+    }
+    .main-footer p {
+      margin: 0;
+      font-size: 0.95em;
+    }
+    @media (min-width: 600px) {
+      .swiper {
+        max-width: 700px;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/swiper-DcjeJ9ci.js"></script>
+  <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/hamburger-DzGNCfwF.js"></script>
+  <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/main-Bgzv3cQd.js"></script>
+  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/swiper-OSsuDtBi.css">
+  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/style-DiaaktsY.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav>
+      <ul>
+          <li><a href="/2024-p2b-web-projekt-michalbrandysky/o_mne/index.html">O mně</a></li>
+          <li><a href="/2024-p2b-web-projekt-michalbrandysky/contacts/index.html">Kontakt</a></li>
+          <li><a href="/2024-p2b-web-projekt-michalbrandysky/produkty/index.html">Produkty</a></li>
+          <li><a href="/2024-p2b-web-projekt-michalbrandysky/">Domů</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 style="text-align:center; color:#fff; margin-top:1em;">Galerie</h1>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide picture">
+          <a class="picture__link" href="/2024-p2b-web-projekt-michalbrandysky/images/big/Sk2014_01.JPG">
+            <img class="picture__image" src="/2024-p2b-web-projekt-michalbrandysky/images/Sk2014_01.JPG" alt="Kanál v Amsterodamu">
+          </a>
+        </div>
+        <div class="swiper-slide picture">
+          <a class="picture__link" href="/2024-p2b-web-projekt-michalbrandysky/images/big/Sk2014_02.JPG">
+            <img class="picture__image" src="/2024-p2b-web-projekt-michalbrandysky/images/Sk2014_02.JPG" alt="Amsterodam (pobřeží)">
+          </a>
+        </div>
+        <div class="swiper-slide picture">
+          <a class="picture__link" href="/2024-p2b-web-projekt-michalbrandysky/images/big/Sk2014_03.JPG">
+            <img class="picture__image" src="/2024-p2b-web-projekt-michalbrandysky/images/Sk2014_03.JPG" alt="Trajekt do UK">
+          </a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <hr class="gallery-divider" style="margin:2em auto; max-width:90%; border:1px solid #fff; opacity:0.3;">
+  </main>
+
+  <footer class="main-footer">
+    <p>&copy; Lukáš Novák 2025</p>
+  </footer>
+</body>
+</html>
