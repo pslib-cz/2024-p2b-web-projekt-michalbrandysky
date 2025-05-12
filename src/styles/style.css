@@ -40,6 +40,7 @@ body {
   color: #fff;
   text-align: center;
   padding: 0.75em 0;
+  position: relative;
 }
 
 .main-header nav ul {
@@ -65,7 +66,7 @@ body {
 
 .main-header nav a:hover,
 .main-header nav a:focus {
-  background: #ffba08;
+  background: #ff7300;
   color: #111;
 }
 
