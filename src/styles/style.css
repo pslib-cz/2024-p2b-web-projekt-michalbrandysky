@@ -161,6 +161,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  align-items: center;
 }
 
 .contact-form {
@@ -171,6 +172,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.7em;
+  width: 75%;
 }
 
 .contact-form label {
