@@ -76,11 +76,23 @@ body {
   background: #ff7300;
   color: #111;
 }
+.main-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.header-logo {
+  display: none;
+}
 
 .main-footer p {
   margin: 0;
   font-size: 0.95em;
 }
+
 
 /* Hero sekce na úvodní stránce */
 .home-hero {
@@ -290,4 +302,19 @@ body {
   gap: 0.7em;
   width: 50%;
 }
+.main-header-content {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 2em;
+  }
+  .header-logo {
+    display: block;
+  }
+  .main-header nav ul {
+    justify-content: flex-end;
+  }
 }
