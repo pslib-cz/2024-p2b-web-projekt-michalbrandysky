@@ -2,17 +2,17 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/svg+xml" href="/2024-p2b-web-projekt-michalbrandysky/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/2024-p2b-web-projekt-michalbrandysky/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galerie | Lukáš Novák</title>
   <style>
     .swiper {
-      --swiper-theme-color: #ffba08;
-      --swiper-pagination-color: #ffba08;
+      --swiper-theme-color: #ff5100;
+      --swiper-pagination-color: #ff5100;
       --swiper-pagination-bullet-size: 16px;
       --swiper-pagination-bullet-inactive-color: #999999;
       --swiper-pagination-bullet-inactive-opacity: 0.7;
-      --swiper-navigation-color: #ffba08;
+      --swiper-navigation-color: #ff5100;
       --swiper-navigation-size: 32px;
       width: 100%;
       max-width: 480px;
@@ -54,7 +54,7 @@
       transition: background 0.2s;
     }
     .main-header nav a:hover {
-      background: #ffba08;
+      background: #ff7300;
       color: #111;
     }
     .main-footer p {
@@ -72,22 +72,26 @@
   <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/hamburger-DzGNCfwF.js"></script>
   <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/main-Bgzv3cQd.js"></script>
   <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/swiper-OSsuDtBi.css">
-  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/style-DiaaktsY.css">
+  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/style-T7fGkLd7.css">
 </head>
 <body>
   <header class="main-header">
-    <nav>
-      <ul>
+    <div class="main-header-content">
+      <nav>
+        <ul>
           <li><a href="/2024-p2b-web-projekt-michalbrandysky/o_mne/index.html">O mně</a></li>
           <li><a href="/2024-p2b-web-projekt-michalbrandysky/contacts/index.html">Kontakt</a></li>
           <li><a href="/2024-p2b-web-projekt-michalbrandysky/produkty/index.html">Produkty</a></li>
           <li><a href="/2024-p2b-web-projekt-michalbrandysky/">Domů</a></li>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+      <a href="/2024-p2b-web-projekt-michalbrandysky/" class="header-logo">
+        <img src="/2024-p2b-web-projekt-michalbrandysky/images/logo.png" alt="Logo" style="height:48px;">
+      </a>
+    </div>
   </header>
 
   <main>
-    <h1 style="text-align:center; color:#fff; margin-top:1em;">Galerie</h1>
     <div class="swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide picture">
@@ -116,6 +120,6 @@
 
   <footer class="main-footer">
     <p>&copy; Lukáš Novák 2025</p>
-  </footer>
+  </footer>
 </body>
 </html>

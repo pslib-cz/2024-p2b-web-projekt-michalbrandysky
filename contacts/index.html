@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kontakt | Lukáš Novák</title>
+    <title>Kontakt | Lukáš Novák</title>
     <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
     <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/hamburger-DzGNCfwF.js"></script>
     <script type="module" crossorigin src="/2024-p2b-web-projekt-michalbrandysky/assets/main-Bgzv3cQd.js"></script>
-    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/style-DiaaktsY.css">
+    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-michalbrandysky/assets/style-T7fGkLd7.css">
   </head>
   <body>
     <header class="main-header">
-      <nav>
-        <ul>
-          <li><a href="/2024-p2b-web-projekt-michalbrandysky/o_mne/index.html">O mně</a></li>
-          <li><a href="/2024-p2b-web-projekt-michalbrandysky/">Domů</a></li>
-          <li><a href="/2024-p2b-web-projekt-michalbrandysky/produkty/index.html">Produkty</a></li>
-          <li><a href="/2024-p2b-web-projekt-michalbrandysky/swiper/index.html">Galerie</a></li>
-        </ul>
-      </nav>
+      <div class="main-header-content">
+        <nav>
+          <ul>
+            <li><a href="/2024-p2b-web-projekt-michalbrandysky/o_mne/index.html">O mně</a></li>
+            <li><a href="/2024-p2b-web-projekt-michalbrandysky/">Domů</a></li>
+            <li><a href="/2024-p2b-web-projekt-michalbrandysky/produkty/index.html">Produkty</a></li>
+            <li><a href="/2024-p2b-web-projekt-michalbrandysky/swiper/index.html">Galerie</a></li>
+          </ul>
+        </nav>
+        <a href="/2024-p2b-web-projekt-michalbrandysky/" class="header-logo">
+          <img src="/2024-p2b-web-projekt-michalbrandysky/images/logo.png" alt="Logo" style="height:48px;">
+        </a>
+      </div>
     </header>
     <main class="contact">
       <form class="contact-form">
@@ -26,18 +31,19 @@
         <input type="text" id="name" name="name" required>
         <label for="email">E-mail</label>
         <input type="email" id="email" name="email" required>
-        <label for="message">Požadavky</label>
+        <label for="message">Požadavky na vaše foto</label>
         <textarea id="message" name="message" required></textarea>
         <button type="submit" class="btn-black">Odeslat</button>
       </form>
       <div class="contact-info">
         <p>E-mail: info@lukasnovak.cz</p>
         <p>Telefon: +420 123 456 789</p>
-        <p>Adresa: Praha</p>
+        <p>Instagram: <a href="https://www.instagram.com/lukasnovakphoto/" target="_blank">@lukasnovakphoto</a></p>
+        <p>Kde mě najdete:<a href="https://www.google.com/maps/place/Národní+28,+110+00+Praha+1" target="_blank">Zobrazit na mapě</a></p>
       </div>
     </main>
     <footer class="main-footer">
       <p>&copy; Lukáš Novák 2025</p>
-    </footer>
+    </footer>
   </body>
 </html>
