@@ -157,6 +157,22 @@ body {
   color: #fff;
   font-size: 1.1em;
 }
+.btn-order {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.6em 1.5em;
+  background: #ffba08;
+  color: #111;
+  border-radius: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-order:hover {
+  background: #fff;
+  color: #ffba08;
+}
 
 /* Galerie */
 .gallery-photo {
@@ -295,6 +311,7 @@ body {
 .product-bg-svatby {
   background-image: url('/images/svatba.webp');
 }
+.nav-link { display: inline-block; }
 
 /* Responsivita pro větší displeje */
 @media (min-width: 600px) {
@@ -302,6 +319,18 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 3em;
+    align-items: center;
+  }
+  .product-section {
+    height: 650px; /* pevná výška pro všechny boxy */
+    width: 600px;         /* pevná šířka pro všechny boxy */
+    min-width: 220px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* zajistí centrování obsahu i vertikálně */
+    text-align: center;
   }
   .about {
     flex-direction: row;
@@ -346,7 +375,7 @@ body {
     margin-right: auto;
   }
 .header-logo img {
-  height: 64px;
+  height: 80px;
   width: auto;  
   max-width: 160px; 
 }
