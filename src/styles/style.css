@@ -260,7 +260,7 @@ body {
 /* O mně */
 .about {
   background: #7a5c3e;
-  min-height: 60vh; /* přidá výšku sekce */
+  min-height: 60svh; /* přidá výšku sekce */
   display: flex;
   justify-content: center;
   align-items: center; /* vertikální centrování obsahu */
