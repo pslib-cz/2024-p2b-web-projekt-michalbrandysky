@@ -22,13 +22,13 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center; 
-  min-height: 0;           /* zabrání přetečení */
+  min-height: 0;       
 }
 
 body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #7a5c3e; /* základní hnědá */
+  background: #7a5c3e; 
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -260,10 +260,10 @@ body {
 /* O mně */
 .about {
   background: #7a5c3e;
-  min-height: 60svh; /* přidá výšku sekce */
+  min-height: 60svh; 
   display: flex;
   justify-content: center;
-  align-items: center; /* vertikální centrování obsahu */
+  align-items: center;
   padding: 2em 0;
 }
 .about-bg {
@@ -315,7 +315,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45); /* tmavý filtr pro lepší čitelnost textu */
+  background: rgba(0,0,0,0.45); 
   z-index: 0;
   border-radius: 1em;
 }
@@ -340,14 +340,14 @@ body {
     align-items: center;
   }
   .product-section {
-    height: 650px; /* pevná výška pro všechny boxy */
-    width: 600px;         /* pevná šířka pro všechny boxy */
+    height: 650px;
+    width: 600px;       
     min-width: 220px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  /* zajistí centrování obsahu i vertikálně */
+    align-items: center;  
     text-align: center;
   }
   .about {
